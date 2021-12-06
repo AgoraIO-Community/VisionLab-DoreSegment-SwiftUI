@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3FC30DA275E2C880085AE38 /* VisionLab_DoreSegment_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC30D9275E2C880085AE38 /* VisionLab_DoreSegment_SwiftUIApp.swift */; };
+		F3FC30DC275E2C880085AE38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC30DB275E2C880085AE38 /* ContentView.swift */; };
+		F3FC30DE275E2C8E0085AE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FC30DD275E2C8E0085AE38 /* Assets.xcassets */; };
+		F3FC30E1275E2C8E0085AE38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FC30E0275E2C8E0085AE38 /* Preview Assets.xcassets */; };
+		F3FC30E9275E2CC40085AE38 /* AgoraUIKit_iOS in Frameworks */ = {isa = PBXBuildFile; productRef = F3FC30E8275E2CC40085AE38 /* AgoraUIKit_iOS */; };
+		F3FC30EC275E2CF20085AE38 /* DoreSegment in Frameworks */ = {isa = PBXBuildFile; productRef = F3FC30EB275E2CF20085AE38 /* DoreSegment */; };
+		F3FC30EE275E2E4A0085AE38 /* AppKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC30ED275E2E4A0085AE38 /* AppKeys.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3FC30D6275E2C880085AE38 /* VisionLab-DoreSegment-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VisionLab-DoreSegment-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FC30D9275E2C880085AE38 /* VisionLab_DoreSegment_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionLab_DoreSegment_SwiftUIApp.swift; sourceTree = "<group>"; };
+		F3FC30DB275E2C880085AE38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3FC30DD275E2C8E0085AE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3FC30E0275E2C8E0085AE38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3FC30ED275E2E4A0085AE38 /* AppKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKeys.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3FC30D3275E2C880085AE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FC30EC275E2CF20085AE38 /* DoreSegment in Frameworks */,
+				F3FC30E9275E2CC40085AE38 /* AgoraUIKit_iOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3FC30CD275E2C880085AE38 = {
+			isa = PBXGroup;
+			children = (
+				F3FC30D8275E2C880085AE38 /* VisionLab-DoreSegment-SwiftUI */,
+				F3FC30D7275E2C880085AE38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FC30D7275E2C880085AE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC30D6275E2C880085AE38 /* VisionLab-DoreSegment-SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3FC30D8275E2C880085AE38 /* VisionLab-DoreSegment-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC30D9275E2C880085AE38 /* VisionLab_DoreSegment_SwiftUIApp.swift */,
+				F3FC30DB275E2C880085AE38 /* ContentView.swift */,
+				F3FC30ED275E2E4A0085AE38 /* AppKeys.swift */,
+				F3FC30DD275E2C8E0085AE38 /* Assets.xcassets */,
+				F3FC30DF275E2C8E0085AE38 /* Preview Content */,
+			);
+			path = "VisionLab-DoreSegment-SwiftUI";
+			sourceTree = "<group>";
+		};
+		F3FC30DF275E2C8E0085AE38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC30E0275E2C8E0085AE38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3FC30D5275E2C880085AE38 /* VisionLab-DoreSegment-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FC30E4275E2C8E0085AE38 /* Build configuration list for PBXNativeTarget "VisionLab-DoreSegment-SwiftUI" */;
+			buildPhases = (
+				F3FC30D2275E2C880085AE38 /* Sources */,
+				F3FC30D3275E2C880085AE38 /* Frameworks */,
+				F3FC30D4275E2C880085AE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VisionLab-DoreSegment-SwiftUI";
+			packageProductDependencies = (
+				F3FC30E8275E2CC40085AE38 /* AgoraUIKit_iOS */,
+				F3FC30EB275E2CF20085AE38 /* DoreSegment */,
+			);
+			productName = "VisionLab-DoreSegment-SwiftUI";
+			productReference = F3FC30D6275E2C880085AE38 /* VisionLab-DoreSegment-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3FC30CE275E2C880085AE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F3FC30D5275E2C880085AE38 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = F3FC30D1275E2C880085AE38 /* Build configuration list for PBXProject "VisionLab-DoreSegment-SwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3FC30CD275E2C880085AE38;
+			packageReferences = (
+				F3FC30E7275E2CC40085AE38 /* XCRemoteSwiftPackageReference "iOS-UIKit" */,
+				F3FC30EA275E2CF20085AE38 /* XCRemoteSwiftPackageReference "Extension-VisionLab-DoreSegment-iOS" */,
+			);
+			productRefGroup = F3FC30D7275E2C880085AE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3FC30D5275E2C880085AE38 /* VisionLab-DoreSegment-SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3FC30D4275E2C880085AE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FC30E1275E2C8E0085AE38 /* Preview Assets.xcassets in Resources */,
+				F3FC30DE275E2C8E0085AE38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3FC30D2275E2C880085AE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FC30EE275E2E4A0085AE38 /* AppKeys.swift in Sources */,
+				F3FC30DC275E2C880085AE38 /* ContentView.swift in Sources */,
+				F3FC30DA275E2C880085AE38 /* VisionLab_DoreSegment_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3FC30E2275E2C8E0085AE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3FC30E3275E2C8E0085AE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3FC30E5275E2C8E0085AE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionLab-DoreSegment-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 278494H572;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "to see you";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "to hear you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.rocketar.VisionLab-DoreSegment-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FC30E6275E2C8E0085AE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionLab-DoreSegment-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 278494H572;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "to see you";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "to hear you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.rocketar.VisionLab-DoreSegment-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3FC30D1275E2C880085AE38 /* Build configuration list for PBXProject "VisionLab-DoreSegment-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FC30E2275E2C8E0085AE38 /* Debug */,
+				F3FC30E3275E2C8E0085AE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FC30E4275E2C8E0085AE38 /* Build configuration list for PBXNativeTarget "VisionLab-DoreSegment-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FC30E5275E2C8E0085AE38 /* Debug */,
+				F3FC30E6275E2C8E0085AE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3FC30E7275E2CC40085AE38 /* XCRemoteSwiftPackageReference "iOS-UIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO-Community/iOS-UIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "4.0.0-preview";
+			};
+		};
+		F3FC30EA275E2CF20085AE38 /* XCRemoteSwiftPackageReference "Extension-VisionLab-DoreSegment-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AgoraIO-Community/Extension-VisionLab-DoreSegment-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3FC30E8275E2CC40085AE38 /* AgoraUIKit_iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3FC30E7275E2CC40085AE38 /* XCRemoteSwiftPackageReference "iOS-UIKit" */;
+			productName = AgoraUIKit_iOS;
+		};
+		F3FC30EB275E2CF20085AE38 /* DoreSegment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3FC30EA275E2CF20085AE38 /* XCRemoteSwiftPackageReference "Extension-VisionLab-DoreSegment-iOS" */;
+			productName = DoreSegment;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F3FC30CE275E2C880085AE38 /* Project object */;
+}
