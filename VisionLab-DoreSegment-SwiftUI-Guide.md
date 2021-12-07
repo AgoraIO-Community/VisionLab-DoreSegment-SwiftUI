@@ -18,7 +18,7 @@ Now, let's get started.
 
 ## Prerequisites
 
-- [An Agora Developer Account - Sign up here](https://sso.agora.io/en/signup?utm_source=medium&utm_medium=blog&utm_campaign=create-a-virtual-background-streaming-app-with-swiftui)
+- [An Agora Developer Account - Sign up here](https://sso.agora.io/en/signup?utm_source=medium&utm_medium=blog&utm_campaign=create-a-swiftui-streaming-app-with-virtual-backgrounds)
 - Xcode 12.3 or later
 - A physical iOS device with iOS 13.0 or later
 - A basic understanding of iOS development
@@ -131,7 +131,7 @@ func joinedChannel(channel: String) {
 
 As shown in the above snippet for AgoraViewerHelper, we have added an extra button to the default buttons provided by Agora UIKit.
 
-This button displays the magic wand icon, and toggles between a green and grey background. When clicked, the button calls a method `toggleBackground`; let's link this button up to enable and disable the extension:
+This button displays the magic wand icon, and toggles between a green and grey background. When clicked, the button calls a method `toggleBackground`; let's link this button up to enable and disable the extension, and apply an image as the background image (`bgImage`):
 
 ```swift
 @objc func toggleBackground(_ sender: UIButton) {
@@ -152,7 +152,7 @@ This button displays the magic wand icon, and toggles between a green and grey b
 }
 ```
 
-In the above snippet, we fetch an image from the app's bundle named `background-boat` if the background is now enabled. That image is passed through to DoreSegment so that it knows what image we want as the background. Then we call enableExtension again, either enabling or disabling the extension.
+In the above snippet, we fetch an image from the app's bundle named `background-boat` if the background is now enabled. That image is passed through to DoreSegment so that it knows what image we want as the background. Then we call enableExtension again, either enabling or disabling the extension. The image used in the background is included in the GitHub project, but can also be downloaded [here](https://github.com/AgoraIO-Community/VisionLab-DoreSegment-SwiftUI/raw/main/VisionLab-DoreSegment-SwiftUI/Assets.xcassets/background-boat.imageset/background-boat.jpg).
 
 ---
 
@@ -203,7 +203,7 @@ https://github.com/AgoraIO-Community/VisionLab-DoreSegment-SwiftUI
 
 ## Other Resources
 
-For more information about building applications using Agora SDKs, take a look at the [Agora Video Call Quickstart Guide](https://docs.agora.io/en/Video/start_call_ios?platform=iOS&utm_source=medium&utm_medium=blog&utm_campaign=create-a-virtual-background-streaming-app-with-swiftui) and [Agora API Reference](https://docs.agora.io/en/Video/API%20Reference/oc/docs/headers/Agora-Objective-C-API-Overview.html?utm_source=medium&utm_medium=blog&utm_campaign=create-a-virtual-background-streaming-app-with-swiftui).
+For more information about building applications using Agora SDKs, take a look at the [Agora Video Call Quickstart Guide](https://docs.agora.io/en/Video/start_call_ios?platform=iOS&utm_source=medium&utm_medium=blog&utm_campaign=create-a-swiftui-streaming-app-with-virtual-backgrounds) and [Agora API Reference](https://docs.agora.io/en/Video/API%20Reference/oc/docs/headers/Agora-Objective-C-API-Overview.html?utm_source=medium&utm_medium=blog&utm_campaign=create-a-swiftui-streaming-app-with-virtual-backgrounds).
 
 I also invite you to [join the Agora Developer Slack community](https://www.agora.io/en/join-slack/) to meet with our developer team as well as other like-minded developers and technical enthusiasts.
 
