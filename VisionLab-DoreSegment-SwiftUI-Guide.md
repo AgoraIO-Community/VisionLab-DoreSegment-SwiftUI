@@ -10,11 +10,15 @@ In this post, we'll show you how to change your background in a streaming app wi
 2. Pass extension credentials
 2. Pass an image as the new background
 
+<p align="center">
+  <img style="max-width: 400px" src="media/background-boat-example.gif"/>
+</p>
+
 Now, let's get started.
 
 ## Prerequisites
 
-- [An Agora Developer Account - Sign up here](https://sso.agora.io/en/signup?utm_source=medium&utm_medium=blog&utm_campaign=create-a-voice-isolating-video-call-app-with-swiftui)
+- [An Agora Developer Account - Sign up here](https://sso.agora.io/en/signup?utm_source=medium&utm_medium=blog&utm_campaign=create-a-virtual-background-streaming-app-with-swiftui)
 - Xcode 12.3 or later
 - A physical iOS device with iOS 13.0 or later
 - A basic understanding of iOS development
@@ -64,24 +68,25 @@ We now have a working video call app with SwiftUI and Agora UIKit. The next step
 
 If you have an account with Agora and are currently signed in, follow [this link](https://console.agora.io/marketplace/extension/introduce?serviceName=visionlab) to activate the extension for your account.
 
-First, you will need to activate PinPoint for your account by clicking "Activate" here:
+First, you will need to activate DoreSegment for your account by clicking "Activate" here:
 
 <p align="center">
-  <img style="max-width: 600px" src="media/pinpoint-enable.png"/>
+  <img style="max-width: 600px" src="media/visionlab-enable.png"/>
 </p>
 
-Next, enable PinPoint for the project, the same project as for the Agora App ID used in the app:
+
+Next, enable DoreSegment for the project, the same project as for the Agora App ID used in the app:
 
 <p align="center">
-  <img style="max-width: 600px" src="media/pinpoint-enable-project.png"/>
+  <img style="max-width: 600px" src="media/visionlab-enable-project.png"/>
 </p>
 
-Once that's done, you can grab your Bose PinPoint `API Key` and `API Secret` by clicking “view” below the credentials tab:
+
+Once that's done, you can grab your DoreSegment `API Key` and `API Secret` by clicking “view” below the credentials tab:
 
 <p align="center">
-  <img style="max-width: 600px" src="media/pinpoint-get-credentials.png"/>
+  <img style="max-width: 600px" src="media/visionlab-get-credentials.png"/>
 </p>
-
 
 
 ### Add to Xcode
@@ -168,9 +173,15 @@ func registerDoreSegment() {
 }
 ```
 
+This is the final result:
+
+<p align="center">
+  <img style="max-width: 400px" src="media/background-boat-example.gif"/>
+</p>
+
 ## Conclusion
 
-You now have a video call app complete with the new extension from Bose!
+You now have a video call app complete with the new extension from VisionLab!
 
 There are other extensions I'd encourage you to try out, and they can all be found here:
 
@@ -188,11 +199,11 @@ https://github.com/AgoraIO-Community/iOS-UIKit/blob/4.0.0-preview.8/Sources/Agor
 
 You can try out this app by following the GitHub link:
 
-https://github.com/AgoraIO-Community/Bose-PinPoint-SwiftUI
+https://github.com/AgoraIO-Community/VisionLab-DoreSegment-SwiftUI
 
 ## Other Resources
 
-For more information about building applications using Agora SDKs, take a look at the [Agora Video Call Quickstart Guide](https://docs.agora.io/en/Video/start_call_ios?platform=iOS&utm_source=medium&utm_medium=blog&utm_campaign=create-a-voice-isolating-video-call-app-with-swiftui) and [Agora API Reference](https://docs.agora.io/en/Video/API%20Reference/oc/docs/headers/Agora-Objective-C-API-Overview.html?utm_source=medium&utm_medium=blog&utm_campaign=create-a-voice-isolating-video-call-app-with-swiftui).
+For more information about building applications using Agora SDKs, take a look at the [Agora Video Call Quickstart Guide](https://docs.agora.io/en/Video/start_call_ios?platform=iOS&utm_source=medium&utm_medium=blog&utm_campaign=create-a-virtual-background-streaming-app-with-swiftui) and [Agora API Reference](https://docs.agora.io/en/Video/API%20Reference/oc/docs/headers/Agora-Objective-C-API-Overview.html?utm_source=medium&utm_medium=blog&utm_campaign=create-a-virtual-background-streaming-app-with-swiftui).
 
 I also invite you to [join the Agora Developer Slack community](https://www.agora.io/en/join-slack/) to meet with our developer team as well as other like-minded developers and technical enthusiasts.
 

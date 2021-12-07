@@ -19,6 +19,7 @@ class AgoraViewerHelper: AgoraVideoViewerDelegate {
     static var agview: AgoraViewer = {
         var agSettings = AgoraSettings()
         agSettings.videoConfiguration = .init(size: CGSize(width: 480, height: 360), frameRate: .fps24, bitrate: AgoraVideoBitrateStandard, orientationMode: .fixedPortrait, mirrorMode: .auto)
+        agSettings.enabledButtons = [.cameraButton, .micButton, .flipButton]
         return AgoraViewer(
             connectionData: AgoraConnectionData(
                 appId: AppKeys.agoraAppId, rtcToken: AppKeys.agoraToken
